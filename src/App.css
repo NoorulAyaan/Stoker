@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Topbar Styling*/
+#top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(207, 207, 207, 0.479);
+    height: 50px;
+}
+#left-side{
+    display: flex;
+    align-items: center;
+}
+#left-side p{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+#location, #number, #mail{
+    color: rgba(28, 155, 28, 0.919);
+    padding: 5px;
+}
+#right-side ul{
+    display: flex;
+    align-items: center;
+}
+#right-side ul li{
+    list-style-type: none;
+}
+#right-side ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+    padding: 14px 0px;
+}
+#right-side #Topbar-list ul{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    width: 175px;
+}
+#right-side #Topbar-list ul li{
+    padding: 5px;
+    cursor: pointer;
+}
+#right-side #Topbar-list ul li a{
+    text-align: center;
+    color: black;
+}
+#right-side #Topbar-list ul li:hover{
+    color: black;
+    background-color: rgba(28, 155, 28, 0.919);
+    transition-duration: 0.4s;
+}
+#right-side #Topbar-list ul li:hover a{
+    color: black;
+}
+#right-side #Topbar-list:hover #Topbar-dropdown{
+    display: block;
+}
+#register, #login, #dashboard, #dashboard1{
+    padding: 5px;
+    color: rgba(28, 155, 28, 0.919);
+}
+
+
+/*Navbar Styling*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(116, 112, 112, 0.637);
+    height: 80px;
+    width: 100%;
+}
+
+#logo-container h1{
+    color: rgba(28, 155, 28, 0.919);
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 8px;
+}
+#lists-side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#lists-side ul{
+    display: flex;
+}
+#lists-side ul li{
+    list-style-type: none;
+}
+#lists-side ul li a{
+    text-decoration: none;
+    padding: 30px 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+#lists-side ul li a:hover{
+    color: rgba(28, 155, 28, 0.919);
+    transition-duration: 0.5s;
+}
+#dropdown{
+    display: block;
+}
+#dropdown #dropdown-list{
+    display: none;
+    position: absolute;
+    margin-top: 29px;
+    background-color: rgba(116, 112, 112, 0.637);
+    border-radius: 5px;
+}
+#dropdown #dropdown-list li{
+    padding: 10px;
+    width: 140px;
+}
+#dropdown #dropdown-list li a{
+    color: black;
+    padding: 10px 14px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dropdown:hover #dropdown-list{
+    display: block;
+}
+#dropdown #dropdown-list li:hover{
+    background-color: rgba(28, 155, 28, 0.919);
+    color: white;
+    transition-duration: 0.8s;
+}
+#dropdown #dropdown-list li:hover a{
+    color: white;
+    transition-duration: 0.5s;
+}
+#Hello #get-started{
+    padding: 10px 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(28, 155, 28, 0.919);
+    border: 2px solid rgba(28, 155, 28, 0.919);
+    color: white;
+    border-radius: 25px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+#Hello #get-started:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: rgba(28, 155, 28, 0.919);
+    transition-duration: 0.5s;
+}
+
+
+/* Third container Styling*/
+#Third-container{
+    background-image: url(Assets/Images/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1353px;
+}
+
+#demo{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+#demo1, #demo2{
+    text-align: center;
+    color: green;
+}
+
+#Third-container p #demo1{
+    color: rgb(34, 158, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 60px;
+}
+#Third-container p #demo2{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+
+
+
+
+
